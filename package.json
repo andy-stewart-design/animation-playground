@@ -4,7 +4,8 @@
   "description": "Playground for exploring animation frameworks",
   "main": "index.js",
   "scripts": {
-    "dev": "parcel src/index.pug"
+    "dev": "parcel src/index.pug",
+    "build": "parcel build src/index.pug --out-dir public"
   },
   "repository": {
     "type": "git",
@@ -18,7 +19,8 @@
   },
   "homepage": "https://github.com/andy-stewart-design/animation-playground#readme",
   "dependencies": {
-    "parcel-bundler": "^1.12.4"
+    "parcel-bundler": "^1.12.4",
+    "sass": "^1.26.5"
   },
   "devDependencies": {
     "pug": "^2.0.4"
