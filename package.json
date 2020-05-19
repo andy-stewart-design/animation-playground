@@ -1,0 +1,26 @@
+{
+  "name": "animation-playground",
+  "version": "1.0.0",
+  "description": "Playground for exploring animation frameworks",
+  "main": "index.js",
+  "scripts": {
+    "dev": "parcel src/index.pug"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/andy-stewart-design/animation-playground.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/andy-stewart-design/animation-playground/issues"
+  },
+  "homepage": "https://github.com/andy-stewart-design/animation-playground#readme",
+  "dependencies": {
+    "parcel-bundler": "^1.12.4"
+  },
+  "devDependencies": {
+    "pug": "^2.0.4"
+  }
+}
