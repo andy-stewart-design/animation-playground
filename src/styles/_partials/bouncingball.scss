@@ -1,0 +1,34 @@
+body.ball {
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    overflow: hidden;
+    background: white;
+    background: linear-gradient(0deg, rgb(186, 245, 255) 0%, rgba(255,255,255,1) 100%);
+}
+
+div.ball,
+div.shadow {
+    width: 25vh;
+    height: 25vh;
+    border-radius: 50%;
+}
+
+div.ball {
+    position: relative;
+    background: rgb(53,53,221);
+    background: linear-gradient(0deg, rgba(53,53,221,1) 0%, rgba(128,175,255,1) 100%); 
+    /*   transform: translateY(-100%); */
+}
+
+div.shadow {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: black;
+    opacity: .125;
+    filter: blur(.5rem);
+}

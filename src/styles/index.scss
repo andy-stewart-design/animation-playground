@@ -1,5 +1,9 @@
-$primary-color: orange;
-
-h1 {
-    color: $primary-color;
+@font-face {
+    font-family: 'Space Mono';
+    src:  url('../assets/fonts/SpaceMono-Regular.woff2') format('woff2'),
+          url('../assets/fonts/SpaceMono-Regular.woff') format('woff');
 }
+
+body {font-family: 'Space Mono', sans-serif;}
+
+@import '_partials/bouncingball';
