@@ -1,2 +1,2 @@
 @font-face{font-family:Space Mono;src:url(/SpaceMono-Regular.dc9d1117.woff2) format("woff2"),url(/SpaceMono-Regular.11c131de.woff) format("woff")}body{font-family:Space Mono,sans-serif}body.ball{margin:0;display:flex;align-items:center;justify-content:center;height:100vh;overflow:hidden;background:#fff;background:linear-gradient(0deg,#baf5ff,#fff)}div.ball,div.shadow{width:25vh;height:25vh;border-radius:50%}div.ball{position:relative;background:#3535dd;background:linear-gradient(0deg,#3535dd,#80afff)}div.shadow{position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);background:#000;opacity:.125;filter:blur(.5rem)}
-/*# sourceMappingURL=/styles.ad4f7221.css.map */
+/*# sourceMappingURL=/styles.1f3cd736.css.map */
