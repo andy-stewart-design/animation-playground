@@ -19,7 +19,9 @@
   },
   "homepage": "https://github.com/andy-stewart-design/animation-playground#readme",
   "dependencies": {
+    "autoprefixer": "^9.8.0",
     "parcel-bundler": "^1.12.4",
+    "postcss-cli": "^7.1.1",
     "sass": "^1.26.5"
   },
   "devDependencies": {
